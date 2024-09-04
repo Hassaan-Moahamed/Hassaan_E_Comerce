@@ -143,11 +143,11 @@ function App() {
   },[UserToken]);
   return (
     <QueryClientProvider client={query}>
-     <UserContextProvider>
+     
         <RouterProvider router={x}></RouterProvider>
         <ReactQueryDevtools initialIsOpen="false" />
         <Toaster />
-        </UserContextProvider>
+     
     </QueryClientProvider>
   );
 }
