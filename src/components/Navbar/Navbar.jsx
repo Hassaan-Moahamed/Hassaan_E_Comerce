@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import style from "./Navbar.module.css";
 import logo from "../../assets/images/logo-image.svg";
 import { NavLink, useNavigate } from "react-router-dom";
-import { UserContext } from '../../context/userContext';
+import { UserContext } from '../../context/UserContext';
 import { CartContext } from "../../context/CartContext";
 
 export default function Navbar() {

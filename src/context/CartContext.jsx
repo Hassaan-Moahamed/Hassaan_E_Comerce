@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { createContext, useContext, useEffect, useState } from "react";
-import { UserContext } from "./userContext";
+import { UserContext } from "./UserContext";
 
 export let CartContext = createContext();
 export default function CartContextProvider(props) {

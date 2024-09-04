@@ -4,7 +4,7 @@ import { useFormik } from "formik";
 import axios from "axios";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import * as Yup from "yup";
-import { UserContext } from "../../context/userContext";
+import { UserContext } from "../../context/UserContext";
 
 export default function Login() {
   const [Error, setError] = useState(false);

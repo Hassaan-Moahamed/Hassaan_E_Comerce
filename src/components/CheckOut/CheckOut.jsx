@@ -3,7 +3,7 @@ import style from "./CheckOut.module.css";
 import { useFormik } from "formik";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import * as Yup from "yup";
-import { UserContext } from "../../context/userContext";
+import { UserContext } from "../../context/UserContext";
 import axios from "axios";
 import { CartContext } from "../../context/CartContext";
 export default function CheckOut() {

@@ -5,7 +5,7 @@ import RecentProducts from "./../RecentProducts/RecentProducts";
 import CategoriesSlider from "./../CategoriesSlider/CategoriesSlider";
 import MainSlider from "../MainSlider/MainSlider";
 import Loader from "../Loader/Loader";
-import { UserContext } from "../../context/userContext";
+import { UserContext } from "../../context/UserContext";
 import { CartContext } from "../../context/CartContext";
 
 export default function Home() {
