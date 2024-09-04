@@ -8,7 +8,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import CartContextProvider from './context/CartContext.jsx'
 import UserContextProvider from './context/userContext.jsx'
-UserContextProvider
+
 createRoot(document.getElementById('root')).render(
   <StrictMode> 
       <UserContextProvider>
